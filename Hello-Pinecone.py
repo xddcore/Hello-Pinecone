@@ -3,7 +3,7 @@ import openai
 import logging as log
 from subprocess import call
 
-log.basicConfig(filename='openai-history.log', encoding='utf-8', level=log.DEBUG)
+log.basicConfig(filename='openai-history.log',  level=log.DEBUG)
 
 # Load your API key from an environment variable or secret management service
 openai.api_key = ""
